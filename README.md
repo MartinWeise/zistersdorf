@@ -1,6 +1,6 @@
 # Web-Kalender Zistersdorf
 
-Kleines Hobby-Projekt um die Zugänglichkeit (♿) des Web-Kalenders der
+Hobby-Projekt um die Zugänglichkeit (♿) des Web-Kalenders der 
 Gemeinde [Zistersdorf](https://www.zistersdorf.gv.at/system/web/kalender.aspx) zu erhöhen durch automatisches Aufrufen
 der Webseite und speichern in das iCal Format.
 
@@ -29,6 +29,11 @@ pipenv install
 python3 ./crawler_trash.py
 ```
 
+## Ausschluss
+
+Dies ist **kein offizielles** Projekt der Gemeinde Zistersdorf. Für eventuelle Schäden wird keine Haftung übernommen.
+Bitte nicht die Webseite der Gemeinde überlasten, es sind absichtlich Pausen von 3s zwischen den Anfragen eingebaut.
+
 ## Mitarbeit
 
-Kontaktiere mich via E-Mail. Meine Addresse steht in meinem [GitHub Profil](https://github.com/MartinWeise). 
+Gerne einen Pull-Request erstellen, ich begrüße Mitarbeit!
